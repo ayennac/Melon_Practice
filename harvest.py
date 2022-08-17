@@ -97,7 +97,7 @@ def make_melon_type_lookup(melon_types):
     melon_dict = {}
     
     for melon in melon_types:
-        melon_dict[melon.name] = melon.code
+        melon_dict[melon.code] = melon
     
     return melon_dict
     
