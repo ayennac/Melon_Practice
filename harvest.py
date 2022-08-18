@@ -145,8 +145,8 @@ def make_melons(melon_types):
     melons = [melon_1, melon_2, melon_3, melon_4, melon_5, melon_6, melon_7, melon_8, melon_9]
 
     return melons
-made_melons = make_melons
-print(made_melons)
+# made_melons = make_melons
+# print(made_melons)
 def get_sellability_report(melons):
     """Given a list of melon object, prints whether each one is sellable."""
     for melon in melons:
